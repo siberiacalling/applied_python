@@ -1,0 +1,10 @@
+directory: "test"
+save_flag: True
+port: 5000
+nodes:
+  -
+    url: "http://localhost:5001"
+    save_flag: True
+  -
+    url: "http://localhost:5002"
+    save_flag: False
